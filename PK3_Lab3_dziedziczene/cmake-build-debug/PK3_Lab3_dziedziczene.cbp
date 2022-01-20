@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Szymon/Desktop/PK3/PK3_Lab3_dziedziczene/body.cpp">
+			<Option target="PK3_Lab3_dziedziczene"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/PK3/PK3_Lab3_dziedziczene/head.h">
+			<Option target="PK3_Lab3_dziedziczene"/>
+		</Unit>
 		<Unit filename="C:/Users/Szymon/Desktop/PK3/PK3_Lab3_dziedziczene/main.cpp">
 			<Option target="PK3_Lab3_dziedziczene"/>
 		</Unit>

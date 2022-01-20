@@ -128,6 +128,30 @@ PK3_Lab3_dziedziczene/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PK3_Lab3_dziedziczene.dir\build.make CMakeFiles/PK3_Lab3_dziedziczene.dir/build
 .PHONY : PK3_Lab3_dziedziczene/fast
 
+body.obj: body.cpp.obj
+.PHONY : body.obj
+
+# target to build an object file
+body.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PK3_Lab3_dziedziczene.dir\build.make CMakeFiles/PK3_Lab3_dziedziczene.dir/body.cpp.obj
+.PHONY : body.cpp.obj
+
+body.i: body.cpp.i
+.PHONY : body.i
+
+# target to preprocess a source file
+body.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PK3_Lab3_dziedziczene.dir\build.make CMakeFiles/PK3_Lab3_dziedziczene.dir/body.cpp.i
+.PHONY : body.cpp.i
+
+body.s: body.cpp.s
+.PHONY : body.s
+
+# target to generate assembly for a file
+body.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PK3_Lab3_dziedziczene.dir\build.make CMakeFiles/PK3_Lab3_dziedziczene.dir/body.cpp.s
+.PHONY : body.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -161,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... PK3_Lab3_dziedziczene
+	@echo ... body.obj
+	@echo ... body.i
+	@echo ... body.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

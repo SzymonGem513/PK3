@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/Szymon/Desktop/PK3/PK3_Lab3_dziedziczene/body.cpp" "C:/Users/Szymon/Desktop/PK3/PK3_Lab3_dziedziczene/cmake-build-debug/CMakeFiles/PK3_Lab3_dziedziczene.dir/body.cpp.obj"
   "C:/Users/Szymon/Desktop/PK3/PK3_Lab3_dziedziczene/main.cpp" "C:/Users/Szymon/Desktop/PK3/PK3_Lab3_dziedziczene/cmake-build-debug/CMakeFiles/PK3_Lab3_dziedziczene.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

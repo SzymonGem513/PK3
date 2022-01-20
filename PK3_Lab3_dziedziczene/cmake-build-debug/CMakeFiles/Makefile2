@@ -80,12 +80,12 @@ clean: CMakeFiles/PK3_Lab3_dziedziczene.dir/clean
 CMakeFiles/PK3_Lab3_dziedziczene.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PK3_Lab3_dziedziczene.dir\build.make CMakeFiles/PK3_Lab3_dziedziczene.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PK3_Lab3_dziedziczene.dir\build.make CMakeFiles/PK3_Lab3_dziedziczene.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Szymon\Desktop\PK3\PK3_Lab3_dziedziczene\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target PK3_Lab3_dziedziczene"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Szymon\Desktop\PK3\PK3_Lab3_dziedziczene\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target PK3_Lab3_dziedziczene"
 .PHONY : CMakeFiles/PK3_Lab3_dziedziczene.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/PK3_Lab3_dziedziczene.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Szymon\Desktop\PK3\PK3_Lab3_dziedziczene\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Szymon\Desktop\PK3\PK3_Lab3_dziedziczene\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/PK3_Lab3_dziedziczene.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Szymon\Desktop\PK3\PK3_Lab3_dziedziczene\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/PK3_Lab3_dziedziczene.dir/rule
