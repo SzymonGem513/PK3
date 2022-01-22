@@ -8,9 +8,9 @@ using namespace std;
 class Figura3D {
 
 public:
-    virtual double objetosc();
-    virtual double pole();
-    virtual double stosunek();
+    virtual double objetosc() = 0;
+    virtual double pole() = 0;
+    virtual double stosunek() = 0;
 };
 
 class Kula :public Figura3D {
@@ -18,17 +18,29 @@ private:
     double r;
 
 public:
-    Kula(int x);
+    Kula(double radius);
     virtual double objetosc();
     virtual double pole();
     virtual double stosunek();
 };
 
 class Prostopadloscian :public Figura3D {
+private:
     double a, b, c;
 
 public:
-    Prostopadloscian(double x, double y, double z);
+    Prostopadloscian(double a, double b, double c);
+    virtual double objetosc();
+    virtual double pole();
+    virtual double stosunek();
+};
+
+class Walec :public Figura3D {
+private:
+    double r, h;
+
+public:
+    Walec(double r, double h);
     virtual double objetosc();
     virtual double pole();
     virtual double stosunek();

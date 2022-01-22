@@ -5,7 +5,7 @@ using namespace std;
 
 const double pi = 3.14;
 
-Kula::Kula(int x): r(x) {}
+Kula::Kula(double radius): r(radius) {}
 
 double Kula::objetosc() {
      return (4/3) * pi * (r * r * r);
@@ -19,14 +19,13 @@ double Kula::stosunek() {
    return (this->pole() / this->objetosc());
 }
 
-Prostopadloscian::Prostopadloscian(double x, double y, double z):a(x),b(y),c(z) {}
+Prostopadloscian::Prostopadloscian(double a, double b, double c):a(a),b(b),c(c) {}
 
 double Prostopadloscian::objetosc() {
    return a * b * c;
 }
 
 double Prostopadloscian::pole() {
-
     return (2*a*b) + (2*a*c) + (2*b*c);
 }
 

@@ -5,20 +5,22 @@ using namespace std;
 
 int main() {
 
-    Kula kula(4);
+    Kula kula(2);
     Prostopadloscian prostopadloscian(4,8,2);
 
-    Figura3D *wsk;
+    Figura3D *ptr;
 
-    wsk = &kula;
-    wsk->objetosc();
-    wsk->pole();
-    wsk->stosunek();
+    ptr = &kula;
+    cout << "Objetosc kuli: " << ptr->objetosc() << endl;
+    cout << "Pole kuli: " << ptr->pole() << endl;
+    cout << "Stosunek pola do objetosci kuli: " << ptr->stosunek() << endl;
 
-    wsk = &prostopadloscian;
-    wsk -> objetosc();
-    wsk->pole();
-    wsk->stosunek();
+
+    ptr = &prostopadloscian;
+    cout << "Objetosc prostopadloscianu: " << ptr->objetosc() << endl;
+    cout << "Pole prostopadloscianu: " << ptr->pole() << endl;
+    cout << "Stosunek pola do objetosci prostopadloscianu: " << ptr->stosunek() << endl;
+
 
     return 0;
 
