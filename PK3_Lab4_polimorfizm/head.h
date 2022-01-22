@@ -1,8 +1,6 @@
 #ifndef PK3_LAB4_POLIMORFIZM_HEAD_H
 #define PK3_LAB4_POLIMORFIZM_HEAD_H
 
-#include <string>
-
 using namespace std;
 
 class Figura3D {

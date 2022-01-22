@@ -1,12 +1,16 @@
 #include "head.h"
-#include <iostream>
 
 using namespace std;
 
 const double pi = 3.14;
 
 double Figura3D::stosunek() {
+
+    if((this->pole() && this->objetosc()) > 0){
         return this->pole() / this->objetosc();
+    }else{
+        return 0;
+    }
 }
 
 Kula::Kula(double radius): r(radius) {}
@@ -26,7 +30,7 @@ double Prostopadloscian::objetosc() {
 }
 
 double Prostopadloscian::pole() {
-    return (2*a*b) + (2*a*c) + (2*b*c);
+    return 2 * (a * b + a * c + b * c);
 }
 
 Walec::Walec(double r, double h): r(r), h(h) {}
