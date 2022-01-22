@@ -10,6 +10,7 @@ class Figura3D {
 public:
     virtual double objetosc() = 0;
     virtual double pole() = 0;
+
     virtual double stosunek() = 0;
 };
 
@@ -21,6 +22,7 @@ public:
     Kula(double radius);
     virtual double objetosc();
     virtual double pole();
+
     virtual double stosunek();
 };
 
@@ -32,6 +34,7 @@ public:
     Prostopadloscian(double a, double b, double c);
     virtual double objetosc();
     virtual double pole();
+
     virtual double stosunek();
 };
 
@@ -42,7 +45,10 @@ private:
 public:
     Walec(double r, double h);
     virtual double objetosc();
+    virtual double polePodstawy();
+    virtual double poleBoczne();
     virtual double pole();
+
     virtual double stosunek();
 };
 

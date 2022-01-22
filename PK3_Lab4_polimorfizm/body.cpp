@@ -32,3 +32,25 @@ double Prostopadloscian::pole() {
 double Prostopadloscian::stosunek() {
     return (this->pole() / this->objetosc());
 }
+
+Walec::Walec(double r, double h): r(r), h(h) {}
+
+double Walec::objetosc() {
+    return this->polePodstawy() * h;
+}
+
+double Walec::polePodstawy() {
+    return pi * (r * r);
+}
+
+double Walec::poleBoczne() {
+    return 2 * pi * r * h;
+}
+
+double Walec::pole() {
+    return (2 * this->polePodstawy()) + this->poleBoczne();
+}
+
+double Walec::stosunek() {
+    return (this->pole() / this->objetosc());
+}
