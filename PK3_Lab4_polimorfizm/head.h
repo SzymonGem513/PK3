@@ -11,9 +11,7 @@ public:
     virtual double objetosc() = 0;
     virtual double pole() = 0;
 
-    virtual double stosunek() {
-        return this->pole() / this->objetosc();
-    };
+    virtual double stosunek();
 };
 
 class Kula :public Figura3D {

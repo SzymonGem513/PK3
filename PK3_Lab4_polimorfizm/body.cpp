@@ -5,6 +5,10 @@ using namespace std;
 
 const double pi = 3.14;
 
+double Figura3D::stosunek() {
+        return this->pole() / this->objetosc();
+}
+
 Kula::Kula(double radius): r(radius) {}
 
 double Kula::objetosc() {
