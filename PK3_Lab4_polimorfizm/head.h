@@ -39,8 +39,8 @@ private:
 public:
     Walec(double r, double h);
     virtual double objetosc();
-    virtual double polePodstawy();
-    virtual double poleBoczne();
+    double polePodstawy();
+    double poleBoczne();
     virtual double pole();
 };
 
