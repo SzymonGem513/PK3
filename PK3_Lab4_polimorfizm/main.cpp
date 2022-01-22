@@ -16,10 +16,14 @@ int main() {
     cout << "Pole kuli: " << ptr->pole() << endl;
     cout << "Stosunek pola do objetosci kuli: " << ptr->stosunek() << endl;
 
+    cout<<endl;
+
     ptr = &prostopadloscian;
     cout << "Objetosc prostopadloscianu: " << ptr->objetosc() << endl;
     cout << "Pole prostopadloscianu: " << ptr->pole() << endl;
     cout << "Stosunek pola do objetosci prostopadloscianu: " << ptr->stosunek() << endl;
+
+    cout<<endl;
 
     ptr = &walec;
     cout << "Objetosc prostopadloscianu: " << ptr->objetosc() << endl;
