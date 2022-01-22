@@ -15,10 +15,6 @@ double Kula::pole() {
    return 4 * pi * (r * r);
 }
 
-double Kula::stosunek() {
-   return (this->pole() / this->objetosc());
-}
-
 Prostopadloscian::Prostopadloscian(double a, double b, double c):a(a),b(b),c(c) {}
 
 double Prostopadloscian::objetosc() {
@@ -27,10 +23,6 @@ double Prostopadloscian::objetosc() {
 
 double Prostopadloscian::pole() {
     return (2*a*b) + (2*a*c) + (2*b*c);
-}
-
-double Prostopadloscian::stosunek() {
-    return (this->pole() / this->objetosc());
 }
 
 Walec::Walec(double r, double h): r(r), h(h) {}
@@ -49,8 +41,4 @@ double Walec::poleBoczne() {
 
 double Walec::pole() {
     return (2 * this->polePodstawy()) + this->poleBoczne();
-}
-
-double Walec::stosunek() {
-    return (this->pole() / this->objetosc());
 }

@@ -11,7 +11,9 @@ public:
     virtual double objetosc() = 0;
     virtual double pole() = 0;
 
-    virtual double stosunek() = 0;
+    virtual double stosunek() {
+        return this->pole() / this->objetosc();
+    };
 };
 
 class Kula :public Figura3D {
@@ -22,8 +24,6 @@ public:
     Kula(double radius);
     virtual double objetosc();
     virtual double pole();
-
-    virtual double stosunek();
 };
 
 class Prostopadloscian :public Figura3D {
@@ -34,8 +34,6 @@ public:
     Prostopadloscian(double a, double b, double c);
     virtual double objetosc();
     virtual double pole();
-
-    virtual double stosunek();
 };
 
 class Walec :public Figura3D {
@@ -48,8 +46,6 @@ public:
     virtual double polePodstawy();
     virtual double poleBoczne();
     virtual double pole();
-
-    virtual double stosunek();
 };
 
 #endif //PK3_LAB4_POLIMORFIZM_HEAD_H
